@@ -1,3 +1,6 @@
+//This is the main controlling code that takes in values from a PIXY2 camera
+//and uses them to determine direction, speed, and servo behavior of a 
+//differential controlled vehicle.
 #include <PIDLoop.h>
 #include <Pixy2.h>
 #include <Pixy2CCC.h>
