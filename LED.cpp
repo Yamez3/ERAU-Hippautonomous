@@ -1,3 +1,7 @@
+//This code is meant for an Arduino Nano or related system.
+//It controls onboard LED strips by reading voltage values of input pins.
+//Due to issues with its related controller current setup is hardcoded to allow only
+//one type of LED coloring, despite any inputs read.
 inputpins[2] = [1,2];
 
 LED_PIN 6
