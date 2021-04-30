@@ -1,3 +1,6 @@
+#Code meant to estimate distance and determine the closest ball of a given set of 
+#objects. This code was not used in our final product, but could be useful for 
+#anyone needing to understand distance between objects.
 import math
 num = input("How many balls are there? ")
 num = int(num)
